@@ -15,7 +15,7 @@
 * Data Access Layer
   * 데이터 저장소에 직접 접근해 필요한 데이터를 읽고 쓰는 Layer입니다.
   * repository 패키지가 Data Access Layer에 속합니다.
-* ContainerConfig 파일에서 위 3가지 레이어에 필요한 객체를 생성하고 의존관계를 연결해 주는 역할을 담당합니다.
+* ContainerConfig.kt 파일은 위 3가지 레이어에 필요한 객체를 생성하고 의존관계를 연결해 주는 역할을 담당합니다.
 
 ## 구현 방향
 * 주문시 상품 재고를 thread-safe하게 처리하기 위해 ConCurrentHashMap를 사용했습니다.
