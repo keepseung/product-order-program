@@ -38,3 +38,9 @@
 * Test 에서는 반드시 multi thread 요청으로 SoldOutException이 정상 동작하는지 확인하는 단위테스트가 존재합니다.
 * 상품의 데이터는 csv 파일을 불러서 메모리에 저장해 사용합니다.
 
+## 사용 기술
+- Kotlin (JDK 17)
+- Gradle
+- Junit5
+- Kotest
+- Assertj
