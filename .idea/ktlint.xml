@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="KtlintProjectConfiguration">
+    <treatAsErrors>false</treatAsErrors>
+    <disabledRules>
+      <list>
+        <option value="package-name" />
+        <option value="package-name" />
+        <option value="no-empty-class-body" />
+        <option value="trailing-comma-on-call-site" />
+        <option value="trailing-comma-on-call-site" />
+      </list>
+    </disabledRules>
+  </component>
+</project>
